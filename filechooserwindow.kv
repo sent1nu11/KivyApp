@@ -1,0 +1,18 @@
+MainWidget:
+
+
+<MainWidget>:
+    Button:
+        text: "Choose Concur File"
+        size: 400, 200
+        pos: 100, 200
+
+
+
+    FileChooserListView:
+        id:filechooser
+        on_selection:MainWidget.selected(filechooser.selection)
+
+    Image:
+        id:my_file
+        source:""

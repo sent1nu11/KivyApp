@@ -1,0 +1,13 @@
+<MyWidget>:
+    cols:2
+    id:my_widget
+
+
+
+    FileChooserListView:
+        id:filechooser
+        on_selection:my_widget.selected(filechooser.selection)
+
+    Image:
+        id:my_file
+        source:""
