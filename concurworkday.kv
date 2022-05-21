@@ -1,14 +1,25 @@
-BoxLayoutSetup:
+MainWidget:
 
-<BoxLayoutSetup>:
-    orientation: "vertical"
+
+<MainWidget>:
     Button:
-        text: "Select Concur File"
-        size: "200dp", "100dp"
-        pos: "100dp" , "200dp"
+        text: "Choose Workday File"
+        size: 400, 100
+        pos: 100, 400
 
     Button:
-        text: "Select Workday File"
-        size: "200dp", "100dp"
-        pos: "100dp" , "400dp"
-        color: 1,0, 0, 1
+        text: "Choose Concur File"
+        size: 400, 100
+        pos: 100, 200
+        color: 0, 0, 1, 1
+
+
+
+
+ #   FileChooserListView:
+ #       id:filechooser
+ #       on_selection:MainWidget.selected(filechooser.selection)
+
+ #   Image:
+ #       id:my_file
+ #       source:""
